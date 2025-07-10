@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+#unique-image {
+    border: none;
+    border-radius: 0;
+}
+
+a {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.container {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 52px;
+}
+
+.headerlogo {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;  
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.herosubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 10%;
+    align-self: flex-start;
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.subhero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    flex-direction: column;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-weight: 900px;
+}
+
+.picturetext {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.picturecontainer {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.quotecontainer {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 26px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quotecite {
+    color:#1F2937;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    margin-left: auto;
+}
+

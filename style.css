@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+}
+
+.headerlogo {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #f9faf8
+
+}
+
+.container {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.subcontainer {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.containertext {
+    color: #f9faf8
+    font-size: 48px;
+}
+
+.containertext2 {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.picture{
+    max-width: 200px;
+}
+
+.container3 {
+
+}
+
+.container4 {
+
+}
+
+.container5 {
+
+}
+
+button.button2 {
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
